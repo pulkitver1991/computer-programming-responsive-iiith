@@ -1,0 +1,30 @@
+#+TITLE: Design
+#+AUTHOR: VLEAD
+#+DATE: [2017-06-29 Tue]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+
+* Introduction
+  This document captures a high level design of using the keyword search
+  service for a lab and experiment to fetch out the videos related to it.
+
+* Process
+
+** Set up the environment to use the service
+   1. To use the service in fetching the url for videos for a lab and
+      experiment, we need to run the keyword search service.
+   2. To run the service, follow the link to set up the service:
+      [[https://github.com/vlead/nptl-data-service/blob/develop/src/design/index.org][nptl-data-service]]
+
+** Check whether the service is working 
+   1. While the above is running, Open a new terminal.
+   2. Clone the repository for a lab, for e.g. [[https://github.com/Virtual-Labs/computer-programming-responsive-iiith/tree/nptel][Computer-Programming]] lab.
+   3. Navigate to the exp1
+      -cd /local-cloned-path/computer-programming-responsive-iiith/src/lab/exp1
+   4. Open index.html in firefox.
+   5. Go to Video tab.
+   6. If everything is fine, you will find videos related to the experiment.
+   7. One can now use the related videos.
