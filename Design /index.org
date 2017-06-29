@@ -17,7 +17,7 @@
    1. To use the service in fetching the url for videos for a lab and
       experiment, we need to run the keyword search service.
    2. To run the service, follow the link to set up the service:
-      [[https://github.com/vlead/nptl-data-service/blob/develop/src/design/index.org][nptl-data-service]]
+      [[https://github.com/vlead/nptl-data-service/blob/develop/src/deployment/index.org][nptl-data-service]]
 
 ** Check whether the service is working 
    1. While the above is running, Open a new terminal.
